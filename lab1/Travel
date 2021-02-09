@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+            body {
+                background-color:rgb(245, 255, 214);
+            }
+            #diving {
+                float:right;
+                margin: 0 0 0px 0px;
+            }
+            #surf {
+                float:right;
+                margin: 0 0 0px 0px;
+            }
+            #satay {
+                display:block;
+                margin:0 auto;
+            }
+            .Bali {
+                background-color: rgb(219, 199, 219);
+            }
+            h1 {
+                background-color: rgb(174, 220, 235);
+            }
+        </style>
+    </head>
+    <body>
+    
+        <h1>Travel to Bali</h1>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/TanahLot_2014.JPG/1280px-TanahLot_2014.JPG" width="446">
+        
+        <h2 class="Bali">Basic info</h2>
+        <p><strong>Bali</strong>, the famed <em>Island of the Gods</em>, with its varied landscape of hills and mountains, rugged coastlines and sandy beaches, lush rice terraces and barren volcanic hillsides all providing a picturesque backdrop to its colourful, deeply spiritual and unique culture, stakes a serious claim to be paradise on earth. With world-class surfing and diving, a large number of cultural, historical and archaeological attractions, and an enormous range of accommodations, this is one of the world's most popular island destinations and one which consistently wins travel awards. Bali has something to offer a very Broadway market of visitors from young back-packers right through to the super-rich.</p>
+        <h2 class="Bali">Do</h2>
+        <p>I want to do these things when i will go to Bali.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Sharm2007b.jpg" width="200" id="diving">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/2010_mavericks_competition_edit1.jpg/420px-2010_mavericks_competition_edit1.jpg" width="200" height="127" id="surf">
+        <ul>
+            <li><strong>scuba diving</strong></li>
+            <li><strong>dive safari</strong></li>
+            <li><strong>yoga</strong></li>
+            <li><strong>freediving</strong></li>
+            <li><strong>surfing</strong></li>
+            <li><strong>sailing</strong></li>
+            <li><strong>yachting</strong></li>
+            <li><strong>canoeing</strong></li>
+        </ul>
+        <h2 class="Bali">Balinese food</h2>
+        <p>Actual Balinese food is common on the island but it has made few inroads in the rest of the country due to its emphasis on pork, which is anathema to the largely Muslim population in the rest of the country. Notable dishes include:</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Chicken_satay_on_banana_leaf_in_Java.jpg/411px-Chicken_satay_on_banana_leaf_in_Java.jpg" width="300" id="satay">
+        <ul>
+            <li><strong>Babi guling</strong></li>
+            <li><strong>Bebek betutu</strong></li>
+            <li><strong>Lawar</strong></li>
+            <li><strong>Satay lilit</strong></li>
+            <li><strong>Urutan</strong></li>
+        </ul>
+    </body>
+</html>
