@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Instagram</title>
+
+<style>
+    body {
+        background-color: rgb(247, 247, 247);
+        font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+    }
+    #pic {
+        position:absolute;
+        z-index: 2;
+        margin-left: 490px;
+        margin-top:125px;
+    }
+    #phone {
+        position:absolute;
+        z-index: 1;
+        margin-left: 340px;
+        margin-top:25px;
+    }
+    .box1 {
+        background-color:white;
+        border: 1px solid #dddfe2;
+        float:right;
+        width: 310px;
+        height:335px;
+        margin-right: 390px;
+        margin-top: 60px;
+        text-align: center;
+        padding:20px;
+    }
+    .box2 {
+        position:absolute;
+        background-color:white;
+        border: 1px solid #dddfe2;
+        float:right;
+        width: 310px;
+        height:50px;
+        margin-right: 10px;
+        margin-top: 470px;
+        text-align: center;
+        padding:20px;
+    }
+    .inp {
+        border: 1px solid #dddfe2;
+        border-radius: 2px;
+        color:rgb(131, 131, 131);
+        padding-top: 9px;
+        padding-right: 0px;
+        padding-bottom: 7px;
+        padding-left: 8px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #email {
+        margin-top: 25px;
+        margin-bottom: 5px;
+    }
+    #logo {
+        margin-top:2px;
+        height:66px;
+    }
+    p {
+        background-color: #1877f2;
+        color:white;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: bold;
+        margin-top:16px;
+        margin-left: 20px;
+        padding: 6px;
+        width: 255px;
+    }
+    #log {
+        color:white;
+        text-decoration: none;
+    }
+    h2 {
+        font-size: 18px;
+        font-weight: 400;
+        width: 80%;
+        text-align: center;
+        border-bottom: 1px solid rgb(202, 202, 202);
+        line-height: 0.1em;
+        margin:20px 0 20px;
+        margin-left: 28px;
+    }
+    h2 span {
+        color:rgb(153, 150, 150);
+        background:#fff;
+        padding:0 10px;
+    }
+    #facebook a{
+        font-size: 14px;
+        font-weight: 600;
+        color:#385185;
+        margin-top:40px;
+        text-align: center;
+        text-decoration: none;
+    }
+    #forgot {
+        color:#292f36;
+        text-decoration: none;
+        font-size:13px;
+    }
+    #autor a {
+        color:#1877f2;
+        text-decoration: none;
+    }
+    #no_acc {
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+</style>
+
+</head>
+<body>
+    <div class="picture">
+        <img id="phone" src="https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png">
+        <img id="pic" src="https://www.instagram.com/static/images/homepage/screenshot5.jpg/0a2d3016f375.jpg">
+    </div>
+    <div class="box1">
+        <div>
+            <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png">
+        </div>
+        <div>
+            <form>
+                <input type="email" size="36px" placeholder="Номер телефона, имя пользователя или эл. адрес" required class="inp" id="email"><br>
+                <input type="password" size="36px" placeholder="Пароль" required class="inp" id="password"><br>
+            </form>
+        </div>
+        <p><a class="login" id="log" href="##">Войти</a></p>
+        <h2><span>или</span></h2>
+        <h3 id="facebook"><a href="#">Войти через Facebook</a></h3>
+        <h8><a id="forgot" href="#">Забыли пароль?</a></h8>
+    </div>
+    <div class="box2">
+        <h6 id="no_acc">У вас еще нет аккаунта?<span id="autor"><a id="reg" href="#">Зарегистрироваться</a></span></h6>
+    </div>
+</body>
+</html>
