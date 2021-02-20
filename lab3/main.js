@@ -3,7 +3,7 @@ const btn = document.querySelector('#btn');
 const result = document.querySelector('#result');
 
 btn.addEventListener('click', function() {
-    if (input.value === ' ') return
+    if (input.value === '') return
     createDeleteElements(input.value)
     input.value = ''
 })
