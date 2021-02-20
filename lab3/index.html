@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <style>
+            body {
+                height: 100vh;
+                background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+                padding-top: 100px;
+            }
+            #shapka {
+                background-color: rgb(24, 24, 22);
+                color:rgb(252, 252, 252);
+                font-weight: 200;
+                font-size: 18px;
+                padding:10px;
+                margin-left: 15px;
+                margin-top: -100px;
+            }
+            h1 {
+                font-size: 25px;
+                font-weight: 700;
+            }      
+
+            .wrap {
+                margin:120px 600px;
+                width: 400px;
+                background: rgb(255, 255, 255);
+                border-radius: 6px;
+                padding:15px;
+            }
+            #input {
+                height: 30px;
+                border: 1px solid rgb(68, 217, 236);
+                border-radius: 5px;
+                font-size: 15px;
+                padding-left: 10px;
+                width: 300px;
+            }
+
+            #btn {
+                width: 60px;
+                height: 30px;
+                border: none;
+                border-radius: 5px;
+                background: rgb(150, 255, 255);
+                font-size: 17px;
+                font-weight: 600;
+                cursor: pointer;
+            }
+            ul {
+                padding: 5px;
+            }
+            #result {
+                margin-bottom: 50px;
+                width: 360px;
+            }
+            .btn {
+                background: red;
+                border: none;
+                color: white;
+                margin-left: 15px;
+                padding: 10px;
+                cursor: pointer;
+                position: relative;
+            }
+            .li {
+                padding: 4px 8px;
+                background: #eddfff;
+                border: 1px solid brown;
+                margin: 10px 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+                text-transform: capitalize;
+            }
+            .li-active {
+                color: #555;
+                text-decoration: line-through;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <h2 id="shapka">ToDo List</h2>
+        <div class="wrap">
+            <h1>ToDo List</h1>
+            <input type="text" id="input" />
+            <button id="btn">Add</button>
+            <ul id="result"></ul>
+            <div>
+                
+            </div>
+            <script src="main.js"></script>
+        </div>
+    </body>
+</html>
