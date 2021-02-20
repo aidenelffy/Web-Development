@@ -1,6 +1,6 @@
-const input = document.querySelector('#input');
-const btn = document.querySelector('#btn');
-const result = document.querySelector('#result');
+let input = document.querySelector('#input');
+let btn = document.querySelector('#btn');
+let result = document.querySelector('#result');
 
 btn.addEventListener('click', function() {
     if (input.value == '') return
@@ -10,8 +10,8 @@ btn.addEventListener('click', function() {
 
 function createDeleteElements(value) {
     
-    const li = document.createElement('li')
-    const btn = document.createElement('button')
+    let li = document.createElement('li')
+    let btn = document.createElement('button')
 
     li.className = 'li'
     li.textContent = value
